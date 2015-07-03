@@ -35,7 +35,7 @@ import qualified Data.ByteString.Char8 as BS8
 import Data.Vector (Vector)
 import qualified Data.Vector as Vector
 
-import Control.Applicative ((<$>))
+import Control.Applicative
 import Control.Exception (Exception, throwIO)
 import Control.Monad (join, when)
 import Data.Function (on)
@@ -50,7 +50,7 @@ import Foreign.Storable (peek, peekElemOff)
 import GHC.Generics (Generic)
 import System.IO.Unsafe (unsafePerformIO)
 
-import Prelude hiding ((<$>),lookup)
+import Prelude hiding (lookup)
 
 -- Invariant: A DB always has its data pre-loaded into memory using
 -- genders_load_data(). Therefore querying the DB does not incur side effects.
