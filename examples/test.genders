@@ -1,0 +1,14 @@
+pg155-n[10-19]  z0_all
+pg155-n[10-19]  z0_lnet_if=o2ib0,z0_lnet_pid=12345
+pg155-n[10-19]  z0_lnet_kernel_portal=34
+pg155-n[10-19]  z0_lnet_z0d_portal=35
+pg155-n[10-19]  z0_lnet_client_portal=36
+pg155-n[10-19]  z0_lnet_host=l%n
+pg155-n[10-19]  z0_var=/var/zzz
+pg155-n[10-19]  z0_max_rpc_msg=163840
+pg155-n[10-19]  z0_min_recv_q=2
+
+pg155-n[10-11]   z0_s_srv1=-c:/var/zzz/conf.txt
+pg155-n[10-11]   z0_s_rm
+pg155-n[10-11]   z0_s_srv2=-p
+pg155-n[10-11]   z0_station
