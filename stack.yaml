@@ -1,0 +1,7 @@
+flags:
+  genders:
+    maintainer: false
+packages:
+- '.'
+extra-deps: []
+resolver: lts-2.14
