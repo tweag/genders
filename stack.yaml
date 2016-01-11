@@ -1,6 +1,3 @@
-flags:
-  genders:
-    maintainer: false
 packages:
 - '.'
 extra-deps: []
